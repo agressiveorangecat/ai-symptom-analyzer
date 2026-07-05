@@ -1,5 +1,5 @@
 # AI Symptom Analyzer
-AI-based lightweight symptom analysis tool for quick self-assessment and educational use.
+Rule-based symptom analysis system simulating AI decision-making for quick self-assessment and educational use.
 
 ---
 
