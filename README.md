@@ -1,9 +1,11 @@
 # AI Symptom Analyzer
+AI-based lightweight symptom analysis tool for quick self-assessment and educational use.
 
 ---
 
 ## 📌 Project Purpose
-This project was created to explore how AI can assist in simple symptom analysis and provide possible condition suggestions based on user input.
+
+This project was created to provide a simple preliminary self-check tool that helps users understand possible conditions before consulting medical professionals.
 
 ---
 
@@ -31,12 +33,30 @@ python ai_analyzer_version1.2.py
 
 ## 📊 Example Output
 
-**Input:**
-- headache, fever, fatigue
+### Input
+fever, cough, fatigue
 
-**Output:**
-- Possible condition: flu-like symptoms  
-- Recommendation: rest, hydration, and monitoring symptoms
+### Analysis
+- fever → strong indicator
+- cough → respiratory symptom
+- fatigue → general infection signal
+
+### Output
+Possible condition: flu-like infection (high probability)
+
+### Reason
+Multiple respiratory-related symptoms detected simultaneously.
+
+---
+
+## 📈 Probability Estimation
+
+- Flu: 75%
+- Cold: 40%
+- Stress: 20%
+
+*These values are simplified estimations based on symptom patterns.*
+*Probabilities are heuristic estimates based on symptom weight scoring.*
 
 ---
 
@@ -53,6 +73,7 @@ python ai_analyzer_version1.2.py
 - Python 3
 - Basic logic-based analysis
 - No external libraries required
+- Rule-based inference system (non-AI lightweight model)
 
 ---
 
