@@ -1,4 +1,5 @@
 # AI Symptom Analyzer
+This project was created to explore how AI can assist in simple health-related symptom analysis and improve accessibility to preliminary self-check tools.
 
 ## ⭐ Main Execution File
 ai_analyzer_version1.2.py
