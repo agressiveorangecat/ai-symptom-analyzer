@@ -47,8 +47,7 @@ else:
 # 🔥 핵심: 증상 입력 (1번만)
 # =============================
 
-symptoms = input("증상을 입력하세요 (예: 기침 또는 기침, 열) : ").split(",")
-symptoms = [s.strip() for s in symptoms if s.strip() != ""]
+symptoms = [s.strip().lower() for s in input("증상을 입력하세요 : ").split(",") if s.strip()]
 
 # -----------------------------
 # 점수 시스템
